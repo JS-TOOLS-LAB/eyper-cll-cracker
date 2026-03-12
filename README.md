@@ -7,21 +7,6 @@
 ![Security Tool](https://img.shields.io/badge/purpose-security-red)
 ![Ethical Use](https://img.shields.io/badge/usage-educational%20only-yellow)
 
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║     ███████╗██╗   ██╗██████╗ ███████╗██████╗     ██████╗██╗     ██╗      ║
-║     ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗   ██╔════╝██║     ██║      ║
-║     █████╗   ╚████╔╝ ██████╔╝█████╗  ██████╔╝   ██║     ██║     ██║      ║
-║     ██╔══╝    ╚██╔╝  ██╔═══╝ ██╔══╝  ██╔══██╗   ██║     ██║     ██║      ║
-║     ███████╗   ██║   ██║     ███████╗██║  ██║   ╚██████╗███████╗███████╗ ║
-║     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝╚═╝  ╚═╝    ╚═════╝╚══════╝╚══════╝ ║
-║                                                                           ║
-║                         🔥 EYPER CLL v5.0 🔥                             ║
-║                 Password Security Testing Tool                           ║
-║                                                                           ║
-║                    Developed by JS Intergrated Labs                      ║
-╚═══════════════════════════════════════════════════════════════════════════╝
-
 ## ⚖️ LEGAL DISCLAIMER
 
 > **IMPORTANT**: This tool is for **EDUCATIONAL PURPOSES** and **AUTHORIZED TESTING ONLY**.
