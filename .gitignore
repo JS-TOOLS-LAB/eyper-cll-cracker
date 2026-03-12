@@ -1,0 +1,418 @@
+# ===============================
+# EYPER CLL - JS Intergrated Labs
+# Git Ignore File
+# ===============================
+
+# ===============================
+# SENSITIVE DATA - NEVER COMMIT
+# ===============================
+
+# User data (contains passwords hashes)
+/data/
+/data/*.pwd
+/data/*.dat
+/data/session.*
+/data/user-password.pwd
+/data/users.php
+
+# Hash files (may contain sensitive hashes)
+/hashes/
+/hashes/*.txt
+/hashes/*.hash
+!/hashes/.gitkeep
+!/hashes/README.md
+
+# Wordlists (large files, may contain passwords)
+/passwords/
+/passwords/*.txt
+/passwords/*.dic
+/passwords/*.wordlist
+!/passwords/.gitkeep
+!/passwords/README.md
+!/passwords/sample.txt
+
+# Log files
+/logs/
+/logs/*.log
+/logs/*.err
+/logs/*.out
+!/logs/.gitkeep
+
+# ===============================
+# OS GENERATED FILES
+# ===============================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.exe
+*.dll
+*.so
+*.dylib
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*~
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===============================
+# EDITOR / IDE FILES
+# ===============================
+
+# VS Code
+.vscode/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json.example
+*.code-workspace
+
+# PHPStorm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+/.idea/workspace.xml
+/.idea/tasks.xml
+/.idea/dataSources.local.xml
+/.idea/sqlDataSources.xml
+/.idea/dictionaries
+/.idea/vcs.xml
+/.idea/jsLibraryMappings.xml
+/.idea/datasources.xml
+/.idea/dataSources.xml
+
+# Sublime Text
+*.sublime-*
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+*.un~
+Session.vim
+.netrwhist
+tags
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===============================
+# PHP SPECIFIC
+# ===============================
+
+# Composer
+/composer.lock
+/vendor/
+composer.phar
+*.composer
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+.phpunit-watcher.yml
+.phpunit-watcher.yml.dist
+tests/_output/
+tests/_support/_generated/
+coverage/
+.phpunit.result.cache
+
+# PHP CodeSniffer
+.phpcs-cache
+phpcs.xml
+phpcs.xml.dist
+phpunit.xml
+phpunit.xml.dist
+
+# PHPStan
+.phpstan.result.cache
+.phpstan.neon
+.phpstan.neon.dist
+
+# Psalm
+psalm.xml
+psalm.xml.dist
+psalm-baseline.xml
+
+# Laravel specific
+.env
+.env.*
+.env.local
+.env.backup
+.env.production
+.env.staging
+storage/
+storage/*.key
+bootstrap/cache/
+public/storage
+public/hot
+public/build
+
+# CodeIgniter
+application/logs/
+application/cache/
+application/config/database.php
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/cache/
+wp-content/backup-*
+
+# ===============================
+# TESTING / CI FILES
+# ===============================
+
+# Testing
+.phpunit.result.cache
+.phpunit-watcher-cache.php
+.php-cs-fixer.cache
+phpcs.xml
+phpunit.xml
+codeception.yml
+.dusk/
+
+# CI/CD
+.gitlab/
+.gitlab-ci.yml
+.travis.yml
+.circleci/
+.circleci/config.yml
+.github/workflows/*.yml
+!.github/workflows/ci.yml.example
+.coveralls.yml
+phpunit.coverage.xml
+clover.xml
+*.cov
+*.cc
+*.crdownload
+
+# ===============================
+# TEMPORARY FILES
+# ===============================
+
+# Temp directories
+/tmp/
+/temp/
+*.tmp
+*.temp
+*.cache
+*.bak
+*.old
+*.orig
+*.backup
+*.log
+*.error
+*.pid
+*.seed
+*.pid.lock
+
+# Archive files
+*.tar
+*.gz
+*.zip
+*.rar
+*.7z
+*.bz2
+*.xz
+*.tgz
+
+# ===============================
+# PACKAGE MANAGER FILES
+# ===============================
+
+# NPM
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+.npm/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.hypothesis/
+profile_default/
+.python-version
+
+# Ruby
+*.gem
+.bundle/
+Gemfile.lock
+vendor/bundle/
+
+# ===============================
+# DATABASE FILES
+# ===============================
+
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.mdb
+*.accdb
+*.frm
+*.ibd
+*.myd
+*.myi
+*.dbf
+
+# ===============================
+# SSL / CERTIFICATES
+# ===============================
+
+*.pem
+*.crt
+*.key
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.truststore
+cert/
+ssl/
+certs/
+
+# ===============================
+# MISCELLANEOUS
+# ===============================
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+Dockerfile
+Dockerfile.*
+!.docker/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.testing
+!.env.dusk.local
+
+# SSH keys
+*.pem
+*.ppk
+id_rsa
+id_dsa
+*.key
+*.crt
+
+# API keys / secrets
+.secrets
+.secrets.*
+api_keys.txt
+secrets.txt
+keys.txt
+passwords.txt
+credentials.txt
+*.secret
+*.key
+
+# ===============================
+# PROJECT SPECIFIC - EYPER CLL
+# ===============================
+
+# User data (keep but don't commit)
+/data/user-password.pwd
+/data/session.dat
+
+# Hash results (don't commit)
+/hashes/*.txt
+/hashes/*.hash
+/hashes/results/
+/hashes/output/
+/hashes/cracked_*.txt
+/hashes/generated_*.txt
+
+# Wordlists (user provided - don't commit)
+/passwords/*.txt
+/passwords/rockyou.txt
+/passwords/common.txt
+/passwords/dictionary.txt
+/passwords/wordlist.txt
+/passwords/custom.txt
+
+# Logs
+/logs/*.log
+/logs/app.log
+/logs/error.log
+/logs/debug.log
+
+# Test files
+/tests/output/
+/tests/temp/
+/tests/data/
+*.test.php
+phpunit.xml
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
+
+# Temp files
+/temp/
+/tmp/
+*.tmp
+*.cache
+
+# Keep these example files (they are safe)
+!/passwords/pass.txt.example
+!/hashes/README.md
+!/data/README.md
+!/logs/.gitkeep
+!/hashes/.gitkeep
+!/passwords/.gitkeep
