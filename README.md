@@ -1,4 +1,3 @@
-```markdown
 # 🔥 EYPER CLL - Password Security Testing Tool
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -8,9 +7,20 @@
 ![Security Tool](https://img.shields.io/badge/purpose-security-red)
 ![Ethical Use](https://img.shields.io/badge/usage-educational%20only-yellow)
 
-```
-
-```
+╔═══════════════════════════════════════════════════════════════════════════╗
+║                                                                           ║
+║     ███████╗██╗   ██╗██████╗ ███████╗██████╗     ██████╗██╗     ██╗      ║
+║     ██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔══██╗   ██╔════╝██║     ██║      ║
+║     █████╗   ╚████╔╝ ██████╔╝█████╗  ██████╔╝   ██║     ██║     ██║      ║
+║     ██╔══╝    ╚██╔╝  ██╔═══╝ ██╔══╝  ██╔══██╗   ██║     ██║     ██║      ║
+║     ███████╗   ██║   ██║     ███████╗██║  ██║   ╚██████╗███████╗███████╗ ║
+║     ╚══════╝   ╚═╝   ╚═╝     ╚══════╝╚═╝  ╚═╝    ╚═════╝╚══════╝╚══════╝ ║
+║                                                                           ║
+║                         🔥 EYPER CLL v5.0 🔥                             ║
+║                 Password Security Testing Tool                           ║
+║                                                                           ║
+║                    Developed by JS Intergrated Labs                      ║
+╚═══════════════════════════════════════════════════════════════════════════╝
 
 ## ⚖️ LEGAL DISCLAIMER
 
@@ -85,7 +95,7 @@
 
 ### Quick Install
 
-```bash
+```markdown
 # Clone the repository
 git clone https://github.com/js-interactive-labs/eyper-cll-cracker.git
 
@@ -110,7 +120,7 @@ echo "admin" >> passwords/pass.txt
 
 Directory Setup
 
-```bash
+```markdown
 eyper-cll-cracker/
 ├── start.php              # Main entry point
 ├── login.php              # Login handler
@@ -159,7 +169,7 @@ Main Menu Options
 
 Creating an Account
 
-```bash
+```markdown
 # From start.php menu
 Select option 2: Create New Account
 
@@ -170,7 +180,7 @@ Select option 2: Create New Account
 
 Login
 
-```bash
+```markdown
 # From start.php menu
 Select option 1: Login
 
@@ -193,7 +203,7 @@ Mode 1: Single Hash Cracker
 
 Interactive mode with verbose option:
 
-```bash
+```markdown
 # From main menu
 Select option 1
 
@@ -212,7 +222,7 @@ Mode 2: Multiple Hash Cracker
 
 Batch process multiple hashes from a file:
 
-```bash
+```markdown
 # From main menu
 Select option 2
 
@@ -233,7 +243,7 @@ $2y$12$X8RluqnC.b9FT4VkPp/q0.RY1sFk5K7qX5K7q
 
 Generate hashes from a password list:
 
-```bash
+```markdown
 # From main menu
 Select option 3
 
@@ -253,22 +263,22 @@ Select option 3
 
 🔧 SUPPORTED HASH TYPES
 
-Type Length Example
-MD5 32 5f4dcc3b5aa765d61d8327deb882cf99
-SHA1 40 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
-SHA224 56 d63dc919e201d7bc4c825630d2cf25fdc93d4b2f0d46706d29038d01
-SHA256 64 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
-SHA384 96 a8b64babd0aca91a59bdbb7761b421d4f2bb38280d3a75ba0f21f2bebc45583d
-SHA512 128 b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb9
-bcrypt 60 $2y$12$X8RluqnC.b9FT4VkPp/q0.RY1sFk5K7qX5K7q
+Type Length Example <br />
+MD5 32 5f4dcc3b5aa765d61d8327deb882cf99 <br />
+SHA1 40 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8 <br />
+SHA224 56 d63dc919e201d7bc4c825630d2cf25fdc93d4b2f0d46706d29038d01 <br />
+SHA256 64 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8 <br />
+SHA384 96 a8b64babd0aca91a59bdbb7761b421d4f2bb38280d3a75ba0f21f2bebc45583d <br />
+SHA512 128 b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb9 <br />
+bcrypt 60 $2y$12$X8RluqnC.b9FT4VkPp/q0.RY1sFk5K7qX5K7q <br />
 
 ---
 
 ⚡ PERFORMANCE
 
-Hash Type Speed (passwords/sec)
-MD5 80,000 - 100,000
-SHA1 60,000 - 80,000
+Hash Type Speed (passwords/sec) <br />
+MD5 80,000 - 100,000 <br />
+SHA1 60,000 - 80,000 <br />
 SHA256 30,000 - 50,000
 SHA512 15,000 - 25,000
 bcrypt 100 - 200
@@ -465,3 +475,5 @@ php start.php
 ```
 
 Remember: Always stay legal, stay ethical, and use this knowledge to make the digital world safer! 🔐
+
+```
