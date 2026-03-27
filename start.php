@@ -42,12 +42,12 @@ if (Session::isLoggedIn()) {
 // Main welcome menu
 while (true) {
     echo "\033[36m\n╔════════════════════════════════════════════════════════════╗\n";
-    echo "║                    WELCOME TO EYPER CLL                       ║\n";
+    echo "║                    WELCOME TO EYPER CLL                    ║\n";
     echo "╠════════════════════════════════════════════════════════════╣\n\033[0m";
-    echo "║  \033[32m1.\033[0m 🔐 Login                                          ║\n";
-    echo "║  \033[32m2.\033[0m 📝 Create New Account                             ║\n";
-    echo "║  \033[32m3.\033[0m ℹ️  About EYPER CLL                               ║\n";
-    echo "║  \033[32m4.\033[0m 🚪 Exit                                          ║\n";
+    echo "║  \033[32m1.\033[0m 🔐 Login                                               ║\n";
+    echo "║  \033[32m2.\033[0m 📝 Create New Account                                  ║\n";
+    echo "║  \033[32m3.\033[0m ℹ️  About EYPER CLL                                     ║\n";
+    echo "║  \033[32m4.\033[0m 🚪 Exit                                                ║\n";
     echo "\033[36m╚════════════════════════════════════════════════════════════╝\n\033[0m";
     
     echo "\033[33m[\033[32m?\033[33m] Select option [1-4]: \033[0m";
@@ -151,21 +151,21 @@ function showAbout() {
     showAboutBanner();
     
     echo "\033[36m╔════════════════════════════════════════════════════════════╗\n";
-    echo "║                    ABOUT EYPER CLL                            ║\n";
+    echo "║                    ABOUT EYPER CLL                         ║\n";
     echo "╠════════════════════════════════════════════════════════════╣\n\033[0m";
-    echo "║  \033[33mVersion:\033[0m     5.0                                           ║\n";
-    echo "║  \033[33mDeveloped:\033[0m   JS Intergrated Labs                         ║\n";
-    echo "║  \033[33mPurpose:\033[0m    Educational Security Testing                 ║\n";
+    echo "║  \033[33mVersion:\033[0m     5.0                                          ║\n";
+    echo "║  \033[33mDeveloped:\033[0m   JS Intergrated Labs                          ║\n";
+    echo "║  \033[33mPurpose:\033[0m    Educational Security Testing                  ║\n";
     echo "║  \033[33mLicense:\033[0m    MIT                                           ║\n";
-    echo "║                                                              ║\n";
-    echo "║  \033[32mFeatures:\033[0m                                               ║\n";
-    echo "║  • Multi-hash support (MD5, SHA1, SHA256, bcrypt)           ║\n";
-    echo "║  • Real-time progress tracking                              ║\n";
-    echo "║  • Verbose mode with password attempts                      ║\n";
-    echo "║  • Secure file-based authentication                         ║\n";
-    echo "║                                                              ║\n";
-    echo "║  \033[31m⚠️  LEGAL USE ONLY!\033[0m                                       ║\n";
-    echo "║  Only test systems you own or have permission to test.      ║\n";
+    echo "║                                                            ║\n";
+    echo "║  \033[32mFeatures:\033[0m                                                 ║\n";
+    echo "║  • Multi-hash support (MD5, SHA1, SHA256, bcrypt)          ║\n";
+    echo "║  • Real-time progress tracking                             ║\n";
+    echo "║  • Verbose mode with password attempts                     ║\n";
+    echo "║  • Secure file-based authentication                        ║\n";
+    echo "║                                                            ║\n";
+    echo "║    \033[31m⚠️  LEGAL USE ONLY!\033[0m                                      ║\n";
+    echo "║  Only test systems you own or have permission to test.     ║\n";
     echo "\033[36m╚════════════════════════════════════════════════════════════╝\n\033[0m";
     
     echo "\033[2m\nPress Enter to return to main menu...\033[0m";
